@@ -27,7 +27,7 @@ int main(void)
 	printf("%s %d is %d and is 0\n", str, n, x);
 }
 	else if (x < 5)
-	printf("%s %d is %d and is less than 5\n", str, n, x);
+	printf("%s %d is %d and is less than 5 and not 0\n", str, n, x);
 
 	return (0);
 	}
