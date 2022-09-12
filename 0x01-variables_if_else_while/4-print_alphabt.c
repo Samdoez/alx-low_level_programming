@@ -10,7 +10,7 @@
 int main(void)
 {	char loww, e, q;
 	e = 'e';
-	y = 'q';
+	q = 'q';
 
 for (loww = 'a'; loww <= 'z'; loww++)
 
