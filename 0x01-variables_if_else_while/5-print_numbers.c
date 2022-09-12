@@ -10,7 +10,7 @@
 int main(void)
 {       int loww;
 for (loww = 0; loww <= 9; loww++)
-{	putchar(loww);
+{	printf("%d", loww);
 }
 printf("\n");
 return (0);
