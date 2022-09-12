@@ -18,5 +18,6 @@ for (loww = 'A'; loww <= 'Z'; loww++)
 {
 	putchar(loww);
 }
+printf("\n");
 return (0);
 }
