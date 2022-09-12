@@ -15,7 +15,7 @@ int main(void)
 for (loww = 'a'; loww <= 'z'; loww++)
 
 {
-	if (loww != 'e' && loww != 'q')
+	if (loww != e && loww != q)
 {
 		putchar(loww);
 }
