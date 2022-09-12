@@ -19,6 +19,7 @@ for (loww = 'a'; loww <= 'z'; loww++)
 {
 		putchar(loww);
 }
+}
 printf("\n");
 return (0);
 }
