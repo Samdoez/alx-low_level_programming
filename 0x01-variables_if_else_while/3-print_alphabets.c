@@ -7,11 +7,9 @@
 *
 * Return: Always 0 (Success)
 */
-
 int main(void)
 {
-        char loww;
-
+	char loww;
 for (loww = 'a'; loww <= 'z'; loww++)
 
 {       putchar(loww);
@@ -19,7 +17,6 @@ for (loww = 'a'; loww <= 'z'; loww++)
 for (loww = 'A'; loww <= 'Z'; loww++)
 {
 	putchar(loww);
-	putchar('\n');
 }
 return (0);
 }
