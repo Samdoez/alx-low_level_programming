@@ -10,14 +10,9 @@ void print_alphabet(void)
 	char l;
 
 	for (l = 'a'; l <= 'z'; l++)
-	_putchar(l);
-	return l
-}
-int main(void)
-{       
-	print_alphabet(void);
-	printf("\n");
-
-return (0);
+	{	
+		_putchar(l);
+	}
+		_putchar('\n');
 }
 
