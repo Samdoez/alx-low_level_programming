@@ -17,5 +17,4 @@ while (co < 0)
 }
 co++;
 _putchar('\n');
-return (0);
 }
