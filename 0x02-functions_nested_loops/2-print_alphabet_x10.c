@@ -14,7 +14,8 @@ while (co < 10)
 {
 	_putchar(l);
 }
-}
 co++;
+
 _putchar('\n');
+}
 }
