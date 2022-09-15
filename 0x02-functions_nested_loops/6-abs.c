@@ -8,5 +8,5 @@
 */
 int _abs(int al)
 {
-	return (ab * ((ab > 0) - (ab < 0)));
+	return (al * ((al > 0) - (al < 0)));
 }
