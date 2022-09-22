@@ -9,11 +9,20 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char dest[30] = "My school";
-	char src[15] = "is great!!!";
-	char *ptr;
+	int dlen = 0, i;
 
-	ptr = strcat(dest, src);
+	while (dest[dlen])
+	{
+		dlen++;
+	}
 
-	return (ptr);
+	for (i = 0; src[i] != 0; i++)
+	{
+		dset[dlen] = src[i];
+		dlen++;
+	}
+
+	dest[dlen] = '\0';
+	return (dest);
 }
+
