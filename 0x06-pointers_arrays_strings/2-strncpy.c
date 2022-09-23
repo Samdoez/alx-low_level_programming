@@ -5,6 +5,7 @@
  * @dest: The destination of the string
  * @src: the source of the string to b added
  * @n: The limit of the copying
+ *
  * Return: a pointer
  */
 
@@ -26,6 +27,7 @@ char *_strncpy(char *dest, char *src, int n)
 	while (a < n)
 	{
 		dest[a] = '\0';
+		a++;
 	}
 	return (dest);
 }
