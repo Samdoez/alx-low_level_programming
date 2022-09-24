@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * cap_string - Function to change to lowercase
- * @s: string to hold
+ * cap_string - ---
+ * @s: ---
  *
  * Return: char value
  */
