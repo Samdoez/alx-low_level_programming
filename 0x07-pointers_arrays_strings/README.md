@@ -1,0 +1,1 @@
+THIS Is the read me file for more pointer and arrays
