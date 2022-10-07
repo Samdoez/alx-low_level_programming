@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * calloc - function that allocates memory for an array, using malloc
+ * _calloc - function that allocates memory for an array, using malloc
  * @nmemb: number of members
  * @size: value
  *
