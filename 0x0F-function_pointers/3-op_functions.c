@@ -1,5 +1,5 @@
 #include "3-calc.h"
-#include <stdio.h>
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -56,13 +56,13 @@ int op_div(int a, int b)
 }
 
 /**
- * op_div - the mod
+ * op_mod - the mod
  * @a: the a
  * @b: the b
  *
  * Return: the return
  */
-int op_div(int a, int b)
+int op_mod(int a, int b)
 {
 	if (b == 0)
 	{
